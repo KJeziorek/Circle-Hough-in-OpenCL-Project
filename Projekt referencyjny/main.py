@@ -1,6 +1,6 @@
-from gaussian_blur import gaussian_blur
-from canny import sobel_gradient, non_max_suppression, threshold, hysteresis
-from hough import hough_cicrle
+from src.gaussian_blur import gaussian_blur
+from src.canny import sobel_gradient, non_max_suppression, threshold, hysteresis
+from src.hough import hough_cicrle
 import cv2
 import numpy as np
 
