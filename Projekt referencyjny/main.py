@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 
-I = cv2.imread("img.jpg")
+I = cv2.imread("Input/puszki.jpg")
 I = cv2.cvtColor(I, cv2.COLOR_BGR2GRAY)
 
 I_blur = gaussian_blur(I, 5, True)
